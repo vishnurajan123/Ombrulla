@@ -1,0 +1,101 @@
+.test{
+    width: 100%;
+    height: 92vh;
+    margin-top: 150px;
+    padding: 30px 100px;
+}
+.test h1{
+    font-size: 2.4rem;
+    font-weight: 600;
+    color: white;
+    margin-top: 25px;
+}
+.cor-item{
+    width: 40rem;
+    height: 500px;
+    background-color: white;
+    height: 100%;
+    margin-top: 40px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+.quot{
+    color: rgb(59, 75, 193);
+    font-size: 2rem;
+}
+.cor-item p{
+    color: grey;
+    margin: 20px;
+}
+.cor-bot img{
+    width: 85px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+.cor-bot{
+    width: 100%;
+    height: 145px;
+    padding: 30px;
+    display: flex;
+    margin-top: 50px;
+    
+}
+.cor-text{
+    padding: 20px;
+
+}
+.cor-bot h4{
+    font-weight: 600;
+}
+.cor-bot h5{
+    color: rgb(59, 75, 193);
+    font-weight: 600;
+}
+@media (max-width:600px) {
+
+    .test{
+    width: 100%;
+    min-height: 60vh;
+    margin-top: 100px;
+    padding: 10px 20px;
+}
+.test h1{
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+    margin-top: 25px;
+}
+.cor-item{
+    width: 10rem;
+
+}
+.quot{
+    font-size: 20px;
+}
+.cor-bot img{
+    width: 45px;
+
+}
+.cor-bot{
+    width: 100%;
+    height: 85px;
+    padding: 10px;
+    display: flex;
+    margin-top: 10px;
+    
+}
+.cor-item p{
+    color: grey;
+    margin: 20px;
+    font-size: 10px;
+}
+.cor-bot h4{
+font-size: 10px;}
+.cor-bot h5{
+  font-size: 10px;
+}
+.cor-text{
+    padding: 8px;
+}
+
+}

@@ -1,0 +1,55 @@
+.blog{
+margin-left: 100px;
+margin-right: 100px;
+}
+.blog h6{
+    font-weight: 600;
+}
+.blog h1{
+    font-weight: 600;
+    font-size: 3rem;
+    text-align: center;
+}
+.blogGrp{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.blogCard{
+    width: 23rem;
+}
+.blogCard img{
+    width: 100%;
+    border-radius: 15px;
+}
+.blogCard h3{
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-top: 30px;
+}
+.blogCard p{
+    color: grey;
+    margin-top: 15px;
+}
+.blogUser img{
+    width: 40px;
+    border-radius: 50%;
+}
+.blogUser h5{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.blogUser h4{
+    color: grey;
+    font-size: 14px;
+}
+@media (max-width:600px) {
+
+    .blog{
+margin-left: 0px;
+margin-right: 0px;
+}
+.blogCard{
+    width: 18rem;
+}
+}

@@ -1,0 +1,55 @@
+.costomers h6{
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 150px;
+}
+.costomers h1{
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+}
+.cor-1{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    overflow-x: hidden;
+
+}
+.cor-2{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    overflow-x: hidden;
+
+}
+.cor-1 img{
+    width: 150px;
+}
+.cor-2 img{
+    width: 150px;
+}
+.sl{
+    overflow-x: hidden;
+    width: 80%;
+  margin-left: 150px;
+  margin-top: 80px;
+}
+@media (max-width:600px) {
+
+    .sl{
+        width: 90%;
+      margin-left: 20px;
+      margin-top: 30px;
+    }
+    .cor-1 img{
+        width: 50px;
+    }
+    .cor-2 img{
+        width: 50px;
+    }
+    .costomers h1{
+        font-size: 2rem;
+
+    }
+}

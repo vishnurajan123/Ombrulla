@@ -1,0 +1,48 @@
+.brands{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.brands h1{
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 600;
+margin-top: 10px;
+margin-bottom: 25px;
+}
+.brand-item{
+    width: 400px;
+    background-color: rgba(239, 239, 239, 0.833);
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5px;
+}
+.brand-item img{
+    width: 150px;
+}
+.brand-grp{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+@media (max-width:600px) {
+    .brands h1{
+        font-size: 1.8rem;
+        text-align: center;
+        font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    }
+    .brand-item{
+        width: 300px;
+        height: 120px;
+        margin-top: 10px;
+
+    }
+    
+}

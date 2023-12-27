@@ -1,0 +1,99 @@
+.petran{
+    width: 100%;
+    height: 83vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-left: 50px;
+}
+.petran-text{
+    width: 45%;
+    margin-top: 100px;
+}
+.petran-img{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.petran-img img{
+    width: 87%;
+}
+.pt{
+    width: 110px;
+}
+.petran-text h5{
+    font-size: 1rem;
+    color: white;
+}
+.petran-text span{
+    font-size: 1rem;
+    color: white;
+    font-weight: bold;
+}
+.petran-text h1{
+    font-size: 2.5rem;
+    color: white;
+    line-height: 45px;
+    font-weight: 600;
+}
+.petran-text p{
+    font-size: 1.2rem;
+    color: white;
+}
+.petran-text .ps{
+    width: 160px;
+    color: white;
+    height: 55px;
+    border-radius: 40px;
+    border: 1px solid rgb(255, 255, 255);
+    font-weight: 600;
+}
+.petran-text .ps:hover{
+    color: black;
+
+}
+.pl{
+    width: 55px ;
+    height: 55px;
+    color: white;
+    border-radius: 50px;
+    border: 1px solid rgb(255, 255, 255);
+    font-size: 1.3rem;
+    margin-left: 20px;
+
+}
+.plText{
+    margin-left: 15px;
+    font-weight: 600;
+}
+.plText:hover{
+    color: rgb(0, 81, 255);
+
+}
+@media (max-width:600px) {
+    .petran{
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        justify-content: space-evenly;
+        padding-left: 20px;
+        margin-top: 100px;
+    }
+    .petran-text{
+        width: 100%;
+        margin-top: 50px;
+    }
+    .petran-img{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+    }
+    .petran-text h1{
+        font-size: 2rem;
+    
+    }
+}

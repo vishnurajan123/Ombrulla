@@ -1,0 +1,73 @@
+.head img{
+    width: 150px;
+}
+.head{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+  }
+
+  .menu{
+    font-size: 25px;
+  }
+  .menuBar{
+    display: none;
+  }
+  .navv{
+    position: relative;
+  }
+  .side{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    display: none;
+    z-index: 20;
+    transition-timing-function: ease-in;
+    transition: 0.2s;
+  }
+  .noSide{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    display: block;
+    z-index: 20;
+    transition-timing-function: ease-in;
+    transition: 0.2s;  }
+  .ombrulla img{
+    width: 180px;
+  }
+  .ombrulla{
+    height: 120px;
+    background-color: rgb(236, 236, 236);
+    display: flex;
+    justify-content: center;
+  }
+.noSide a{
+  font-size: 1.5rem;
+}
+.ombrullaLinks{
+  padding: 10px;
+}
+
+  @media (max-width:680px) {
+    .noRes{
+        display: none;
+    }
+
+    .menuBar{
+        display:block;
+      }
+      .head{
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+    
+  }

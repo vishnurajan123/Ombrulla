@@ -1,0 +1,66 @@
+.products{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+.pro1{
+    width: 26rem;
+    min-height: 25rem;
+}
+
+.pro1 h1{
+    font-size: 3rem;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.pro1 p{
+    color: grey;
+    margin-top: 20px;
+
+}
+.pro2{
+    width: 26rem;
+    min-height: 25rem;
+    border-radius: 20px;
+    padding: 35px;
+}
+.pro2 h2{
+    font-size: 1.6rem;
+}
+.pro2 p{
+    color: grey;
+    margin-top: 20px;
+}
+.pro2 img{
+    width: 250px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.pro2 i{
+    margin-top: 50px;
+    font-size: 18px;
+    transform: rotate(-45deg);
+    color: blue;
+}
+@media (max-width:600px) {
+
+    .pro2 img{
+        width: 150px;
+        margin-left: 50px;
+        margin-top: 30px;
+    }
+    .pro2{
+   margin-top: 20px;
+   margin-bottom: 20px;
+    }
+    .pro1{
+        width: 18rem;
+        min-height: 25rem;
+    }
+    .pro2{
+        width: 18rem;
+    }
+}

@@ -1,0 +1,9 @@
+.home{
+    background-image: linear-gradient(to bottom,#cfd9ff,#ffffff);
+    min-height: 100vh;
+    margin-top:-17px;
+    padding-top: 20px;
+}
+.home2{
+    padding: 5px;
+}
