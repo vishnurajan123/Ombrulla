@@ -5,5 +5,11 @@
     padding-top: 20px;
 }
 .home2{
-    padding: 5px;
+    padding: 60px;
+}
+@media (max-width:600px) {
+    .home2{
+        padding: 5px;
+    }
+    
 }
